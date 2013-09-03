@@ -1,0 +1,13 @@
+<?php
+
+# For OAuth authentication and authorization
+define('GITHUB_ID', '');
+define('GITHUB_SECRET', '');
+
+# For URL construction of GitHub API endpoints
+# e.g. /repos/GITHUB_ACCOUNT/GITHUB_REPOSITORY/issues
+define('GITHUB_ACCOUNT', '');
+define('GITHUB_REPOSITORY', '');
+
+include_once "GithubApiWrapper-PHP/githuboauth.class.php";
+
